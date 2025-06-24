@@ -5,7 +5,7 @@
 # File: analyzer.py
 # --------------------------------------------------
 """Western Blot Band Analyzer
-Author: Erini Galatis (replace with your name)
+Author: Erini Galatis
 Description: Quantifies Western blot band intensities using OpenCV.
 """
 
