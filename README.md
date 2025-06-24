@@ -1,19 +1,15 @@
-# --------------------------------------------------
-# File: README.md
-# --------------------------------------------------
-"""
-# Western Blot Band Analyzer
+## Western Blot Band Analyzer
 
-A simple Python tool to quantify Western blot band intensities using OpenCV.
+A practice tool to quantify Western blot band intensities using OpenCV.
 
 ![demo blot](./docs/demo.png)
 
 ## Features
-* 📷 **Loads** grayscale Western blot images (PNG, TIFF, JPEG)
-* 🔲 **User‑defined boxes** for each band
-* 📈 **Quantifies** band intensity (inverted grayscale sum)
-* 🖼 **Plots** the results as a bar graph
-* 🗄 **Outputs** intensities in the console – easy to copy into spreadsheets or further scripts
+* **Loads** grayscale Western blot images (PNG, TIFF, JPEG)
+* **User‑defined boxes** for each band
+* **Quantifies** band intensity (inverted grayscale sum)
+* **Plots** the results as a bar graph
+* **Outputs** intensities in the console – easy to copy into spreadsheets or further scripts
 
 ## Installation
 ```bash
@@ -39,18 +35,9 @@ python analyzer.py
 4. View the printed intensities and the pop‑up bar graph.
 
 ## How to Get Band Coordinates
-Use any image viewer (ImageJ, FIJI, GIMP) to read pixel positions:
+Use image viewer (ImageJ, FIJI, etc) to read pixel positions:
 * **(x1, y1)** = top‑left corner of the band box
 * **(x2, y2)** = bottom‑right corner
-
-## Roadmap / Ideas to Extend
-* Auto‑detect lanes and bands with edge detection
-* Normalize bands to housekeeping protein
-* Export results to CSV or Excel
-* Build a Streamlit or PyQt GUI
-
-## License
-MIT
 
 """
 
