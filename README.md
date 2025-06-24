@@ -2,8 +2,6 @@
 
 A practice tool to quantify Western blot band intensities using OpenCV.
 
-![demo blot](./docs/demo.png)
-
 ## Features
 * **Loads** grayscale Western blot images (PNG, TIFF, JPEG)
 * **User‑defined boxes** for each band
